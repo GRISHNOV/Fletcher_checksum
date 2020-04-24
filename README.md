@@ -28,12 +28,12 @@ print(checksum_result)
 
 # Example of using bytes input
 test_bytes_input = b'\xd0\x91\xd0\xb0\xd0\xb9\xd1\x82\xd1\x8b'
-checksum_result = FletcherChecksumStr.get_fletcher32(test_string_input)
+checksum_result = FletcherChecksumBytes.get_fletcher32(test_bytes_input)
 print(checksum_result)
 
 >>>   { 
->>>     'Fletcher32_dec': 542180489,
->>>     'Fletcher32_hex': '0x20510489'
+>>>     'Fletcher32_dec': 670893849,
+>>>     'Fletcher32_hex': '0x27fd0719'
 >>>   }
 
 # Example of using file(bytes) input
