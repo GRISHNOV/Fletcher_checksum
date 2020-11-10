@@ -11,7 +11,7 @@ The Fletcher checksum is an algorithm for computing a position-dependent checksu
 This library has functions for working with string and byte data (which also allows you to calculate the checksum for your files).
  An example of usage is shown below.
  
- ```
+ ```python
  
 # Importing classes with static methods for working with strings and bytes
 from FletcherChecksumLib import FletcherChecksumStr, FletcherChecksumBytes
